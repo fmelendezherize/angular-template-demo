@@ -1,0 +1,15 @@
+Angular Project Template CheatSheet
+
+Se asume que esta instalado node y angular cli en el global module
+
+1)  crear proyecto en github / bitbucket, ejem: angulartemplatedemo
+2)  run >mkdir angular-template-demo
+3)  run >cd angular-template-demo
+4)  crear otros directorios a gusto como /htmls; /recursos; /libs;
+5)  desde \angular-template-demo, run >ng new angular-demo
+6)  remove .git directory desde el new folder angular-demo
+7)  desde la raiz \angular-template-demo, run >git init
+8)  run >git add . (<-- pendiente ese punto ahi va)
+9)  run >git commit -m "first commit"
+10) run >git remote add origin https://github.com/usuario/angulartemplatedemo.git (cambiar git link con el apropiado)
+11) run >git push -u origin master
