@@ -6,10 +6,16 @@ Se asume que esta instalado node y angular cli en el global module
 2)  run >mkdir angular-template-demo
 3)  run >cd angular-template-demo
 4)  crear otros directorios a gusto como /htmls; /recursos; /libs;
+7)  desde la raiz \angular-template-demo, run >git init, esto hara que el cli de angular no incluya info de git
 5)  desde \angular-template-demo, run >ng new angular-demo
-6)  remove .git directory desde el new folder angular-demo
-7)  desde la raiz \angular-template-demo, run >git init
 8)  run >git add . (<-- pendiente ese punto ahi va)
 9)  run >git commit -m "first commit"
 10) run >git remote add origin https://github.com/usuario/angulartemplatedemo.git (cambiar git link con el apropiado)
 11) run >git push -u origin master
+
+Simple CRUD components
+
+1) run >ng generate component components\adminUserList
+2) run >ng generate component components\adminUserSingle
+3) run >ng generate component components\adminUserAdd
+4) run >ng generate service services\adminUser
