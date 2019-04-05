@@ -19,3 +19,9 @@ Simple CRUD components
 2) run >ng generate component components\adminUserSingle
 3) run >ng generate component components\adminUserAdd
 4) run >ng generate service services\adminUser
+4) run >ng generate service services\global #one for app
+5) global.service copy from template and modify
+5) admin-user.service copy from template and modify
+5) register in app.module: HttpClient, FormsModule, ReactiveFormsModule #one for app
+5) register datatables y project #pendiente calito
+5) fix routing for crud check template
